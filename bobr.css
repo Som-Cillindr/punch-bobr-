@@ -1,0 +1,38 @@
+.начать{
+    background-image: url(../assets-bobr/pictures/Group\ 2\ \(1\).jpg);
+    background-size: contain;
+    height: 770px;
+    width: 500px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+position: relative;
+}
+.мутно{
+    background-color: rgb(167, 156, 156, 0.5);
+    top: 0;
+    height: 100%;
+    width: 515px;
+    width: 100%;
+display: flex;
+justify-content:center;
+align-items:center;
+position:absolute;
+}
+.начать-б{
+    background-color: beige;
+height: 50px;
+width: 200px;
+border-radius: 50px;
+margin-top: 250px ;
+}
+.начать-б:hover{
+    display: flex;
+justify-content: center;
+transition: 0.5s;
+transform: scale(120%);
+}
+
+
+*{
+    cursor: url(../images/hammer-svgrepo-com.svg) 0 0, default;
+}
